@@ -7,7 +7,7 @@ import ScrollToTop from "../components/scrollToTop";
 
 const Home: React.FC = () => {
   return (
-    <div className="snap-y snap-mandatory h-screen overflow-y-scroll relative animated-dots">
+    <div className="lg:snap-y lg:snap-proximity h-screen overflow-y-scroll relative animated-dots">
       
       {/* Fixed Header */}
       <div className="fixed top-0 left-0 right-0 z-50">  
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       </div>
       
       {/* Hero Section */}
-      <section className="snap-start h-screen flex items-center justify-center relative z-10">
+      <section className="lg:snap-start min-h-screen lg:h-screen flex items-center justify-center relative z-10 pt-24 lg:pt-0">
         <Hero />
       </section>
 
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
       </div>
 
       {/* Footer */}
-      <footer className="snap-start relative z-10">
+      <footer className="lg:snap-start relative z-10">
         <Footer />
       </footer>
       

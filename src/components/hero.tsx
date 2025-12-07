@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
-    <section className="w-full flex justify-center items-center text-white mt-20 mb-20">
-      <div className="max-w-4xl px-8">
-        <h1 className="text-6xl font-bold mb-6 text-white">Daniel Endresen</h1>
-        <p className="text-2xl text-gray-100 mb-6">Full Stack Developer & Software Engineer</p>
+    <section className="w-full flex justify-center items-center text-white">
+      <div className="max-w-4xl px-4 md:px-8">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-6 text-white">Daniel Endresen</h1>
+        <p className="text-xl md:text-2xl text-gray-100 mb-4 md:mb-6">Full Stack Developer & Software Engineer</p>
         <p className="text-lg text-gray-200 leading-relaxed mb-6">
           I'm a passionate full-stack developer with a deep love for creating innovative digital solutions 
           that make a real impact. With expertise spanning frontend and backend technologies, I bring ideas 
