@@ -2,7 +2,11 @@ import ProjectCard from "./projectCard";
 
 export default function Projects() {
   const projects = [
-    { title: "E-commerce web application", description: "javascript , react, css, express.js, neonDB", link: "https://norli-clone.onrender.com/" },
+    { title: "E-commerce website", description: "javascript , react, css, express.js, neonDB", link: "https://norli-clone.onrender.com/"
+
+
+     },
+     {title: "Stock dashboard website", description: "javascript , react, tailwindcss, express.js", link: "https://stock-frontend-tcqe.onrender.com/"}
     
   ];
 
